@@ -404,6 +404,7 @@ FEATURES
 .book__title--skeleton {
   height: 21px;
   width: 100%;
+  max-width: 250px;
 }
 
 .book__rating--skeleton {
@@ -613,6 +614,8 @@ select {
 .book__selected--title--top {
   margin-left: 10px;
   margin-bottom: 0;
+  display: flex;
+  align-items: left;
 }
 
 .book__summary {
