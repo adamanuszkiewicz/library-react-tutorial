@@ -1,8 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState ,useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import Rating from "./Rating";
-import Price from "./Price";
 
 const Book = ({ book }) => {
   const [img, setImg] = useState();
@@ -16,15 +14,15 @@ const Book = ({ book }) => {
         setTimeout(() => {
             if (mountedRef.current) {
               setImg(image);
-            }
+            };
         }, 300);
     };
     return () => {
         mountedRef.current = false;
-    }
-  })
+    };
+  });
 
-  
+
   return (
     <div className="book">
       {img ? (

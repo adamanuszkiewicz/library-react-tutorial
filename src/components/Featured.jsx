@@ -5,7 +5,7 @@ import Book from "./ui/Book";
 const Featured = () => {
 
   return (
-    <section id="featured">
+    <section id="features">
       <div className="container">
         <div className="row">
           <h2 className="section__title">
